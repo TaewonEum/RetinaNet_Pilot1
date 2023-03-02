@@ -2,6 +2,5 @@
 
 # 2023.03~05사이에 업로드 예정
 
-먼저 벌의 응애사진을 촬영한 Sample Data에 대한 RetinanNet의 테스트를 진행
-
+벌의 질병인 응애 Sample사진의 Detection Test
 
