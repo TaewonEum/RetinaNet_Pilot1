@@ -12,4 +12,4 @@
 
 ![image](https://user-images.githubusercontent.com/104436260/222882217-2b3ecb8b-327b-44c8-a781-e0f443a35b4e.png)
 
-GPU(CUDA) 
+GPU(CUDA) 사용 확인
