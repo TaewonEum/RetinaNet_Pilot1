@@ -38,5 +38,11 @@ Train, Valid, Test 8:1:1 비율로 Split하여 저장
 
 Label 값은: Class, x, y, Width, Height 순으로 이루어짐
 
+RetinaNet을 PyTorch에서 사용하기 위해서는 바운딩 박스 좌표값이 [x_min, y_min, x_max, y_max] 형태의 tensor로 입력되어야 함.
+
+만약 여러 개의 바운딩 박스를 가지고 있는 경우에는 이들을 리스트 또는 torch.Tensor의 2D 배열로 만들어서 구성해야함.
+
+
+
 
 
