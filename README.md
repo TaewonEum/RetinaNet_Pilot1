@@ -24,6 +24,6 @@ GPU(CUDA) 사용 확인
 
 ![image](https://user-images.githubusercontent.com/104436260/222883797-e5de9ffa-21ba-4005-9fb1-bbf3fa9ce760.png)
 
-
+Train, Valid, Test 8:1:1 비율로 Split하여 저장
 
 
