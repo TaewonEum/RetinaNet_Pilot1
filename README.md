@@ -42,6 +42,13 @@ RetinaNet을 PyTorch에서 사용하기 위해서는 바운딩 박스 좌표값�
 
 만약 여러 개의 바운딩 박스를 가지고 있는 경우에는 이들을 리스트 또는 torch.Tensor의 2D 배열로 만들어서 구성해야함.
 
+# 기존 좌표값 변환 및 바운딩 박스 확인
+
+![image](https://user-images.githubusercontent.com/104436260/222886691-03ab6bae-0f88-4023-a075-ab3d4a8d4fa9.png)
+
+
+
+
 
 
 
