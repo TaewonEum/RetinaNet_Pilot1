@@ -46,6 +46,7 @@ RetinaNet을 PyTorch에서 사용하기 위해서는 바운딩 박스 좌표값�
 
 ![image](https://user-images.githubusercontent.com/104436260/222886691-03ab6bae-0f88-4023-a075-ab3d4a8d4fa9.png)
 
+![image](https://user-images.githubusercontent.com/104436260/222886858-5cef7348-b8a2-45f9-80f8-3592b0434e28.png)
 
 
 
