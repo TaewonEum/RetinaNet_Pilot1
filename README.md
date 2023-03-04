@@ -13,3 +13,8 @@
 ![image](https://user-images.githubusercontent.com/104436260/222882217-2b3ecb8b-327b-44c8-a781-e0f443a35b4e.png)
 
 GPU(CUDA) 사용 확인
+
+# Data 경로 설정
+
+![image](https://user-images.githubusercontent.com/104436260/222882324-a6181293-5961-4818-a289-9ff47ca0a5db.png)
+
