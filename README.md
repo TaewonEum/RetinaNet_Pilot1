@@ -2,6 +2,8 @@
 
 # 2023.03~05사이에 업로드 예정
 
+실제로 촬영한 벌의 사진에서 식별가능한 응애를 직접 라벨링작업을 한 후 yolov8 pytorch 좌표 버전으로 export한 이미지로 RetinaNet Test 적용 진행
+
 벌의 질병인 응애 Sample사진의 Detection Test
 
 # device 설정 및 Library import
