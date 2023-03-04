@@ -26,4 +26,9 @@ GPU(CUDA) 사용 확인
 
 Train, Valid, Test 8:1:1 비율로 Split하여 저장
 
+# Label Data 확인
+
+![image](https://user-images.githubusercontent.com/104436260/222884579-1ccd424f-a5ea-40f4-b3f4-4c4340896761.png)
+
+
 
