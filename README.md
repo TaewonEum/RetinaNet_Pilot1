@@ -18,5 +18,10 @@ GPU(CUDA) 사용 확인
 
 ![image](https://user-images.githubusercontent.com/104436260/222883565-78bc3318-717f-419d-86c0-5f4de02ac43e.png)
 
+# Data 갯수 확인
+
+![image](https://user-images.githubusercontent.com/104436260/222883797-e5de9ffa-21ba-4005-9fb1-bbf3fa9ce760.png)
+
+
 
 
