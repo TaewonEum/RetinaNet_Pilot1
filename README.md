@@ -49,6 +49,13 @@ RetinaNet을 PyTorch에서 사용하기 위해서는 바운딩 박스 좌표값�
 
 img_width와 img_height를 통해 xmin, ymin, xmax, ymax값 구하여 바운딩박스 좌표 확인
 
+# 새로운 라벨링 리스트 만들기
+
+기존의 라벨링 파일의 값을 변환시켜 RetinaNet input에 맞게 데이터 변형
+
+![image](https://user-images.githubusercontent.com/104436260/224185977-df98f00f-ec75-41aa-abfc-bc3330b43cec.png)
+
+
 
 
 
