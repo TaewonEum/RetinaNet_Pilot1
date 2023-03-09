@@ -48,7 +48,7 @@ RetinaNet을 PyTorch에서 사용하기 위해서는 바운딩 박스 좌표값�
 
 ![image](https://user-images.githubusercontent.com/104436260/222886858-5cef7348-b8a2-45f9-80f8-3592b0434e28.png)
 
-
+img_width와 img_height를 통해 xmin, ymin, xmax, ymax값 구하여 바운딩박스 좌표 확인
 
 
 
