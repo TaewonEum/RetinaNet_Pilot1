@@ -26,6 +26,11 @@ GPU(CUDA) 사용 확인
 
 Train, Valid, Test 8:1:1 비율로 Split하여 저장
 
+# Class명 담고 있는 리스트 생성 및 파일명 리스트화
+
+![image](https://user-images.githubusercontent.com/104436260/224184604-cf6bb88b-bde2-4b77-a680-682e77b4a832.png)
+
+
 # Image Data shape확인
 
 ![image](https://user-images.githubusercontent.com/104436260/222884716-f05bf364-630e-45b9-8c54-10577fac921f.png)
