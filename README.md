@@ -31,15 +31,10 @@ Train, Valid, Test 8:1:1 비율로 Split하여 저장
 ![image](https://user-images.githubusercontent.com/104436260/224184604-cf6bb88b-bde2-4b77-a680-682e77b4a832.png)
 
 
-# Image Data shape확인
+# Image Data shape확인, Label Data 확인
 
-![image](https://user-images.githubusercontent.com/104436260/222884716-f05bf364-630e-45b9-8c54-10577fac921f.png)
+![image](https://user-images.githubusercontent.com/104436260/224185375-bbf7dfde-9dd2-4e2a-ab43-f1d4c9209f10.png)
 
-3x640x640 형태로 이루어짐
-
-# Label Data 확인
-
-![image](https://user-images.githubusercontent.com/104436260/222884579-1ccd424f-a5ea-40f4-b3f4-4c4340896761.png)
 
 Label 값은: Class, x, y, Width, Height 순으로 이루어짐
 
