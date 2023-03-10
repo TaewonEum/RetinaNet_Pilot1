@@ -75,9 +75,11 @@ Pytorch 공식 사이트에서 나온 RetinaNet input 데이터 형태로 데이
 
 # 커스텀 데이터셋 만들기
 
+Dataset 상속받아 __init__, __len__, __getitem__ 메소드를 사용하여 커스텀 데이터셋을 구성함
+
 ![image](https://user-images.githubusercontent.com/104436260/224193375-878d33ba-3a04-4f3f-b615-5c86b97bd8b0.png)
 
-transform 함수까지 작성
+transform 함수까지 작성->이미지 리사이즈, 이미지 텐서변환만 진행함 augmentation은 진행하지 않음
 
 
 
