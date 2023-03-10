@@ -154,3 +154,4 @@ RetinaNet에서는 하나의 loss함수로 모든 예측값을 처리하는것�
 
 두번째는 regression loss로 bounding box의 위치와 크기를 예측하는 값임. 이 loss는 bounding box의 위치와 크기 예측이 정확한지를 판단하는데 사용됨
 
+# RetinaNet의 Focal Loss
