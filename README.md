@@ -112,6 +112,8 @@ collate_fn이란 Dataset을 batch단위로 묶을 때 사용함 이미지 마다
 
 여기선 배치 단위로 각각의 이미지와 이미지의 타겟값을 Tuple형태로 묶어줌
 
+# Train, Test 전체 객체개수 확인
 
+![image](https://user-images.githubusercontent.com/104436260/224199161-941ff38e-5e94-4778-ac15-e8a46c0f73ab.png)
 
 
