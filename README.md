@@ -126,6 +126,19 @@ RetinaNet Define
 
 ![image](https://user-images.githubusercontent.com/104436260/224203418-0dd20548-1d85-44ea-befa-05bdd300cf2b.png)
 
-# 학습결과 확인 epoch=1으로 설정
+# 학습결과 확인 epoch=1으로 설정(결과 확인용)
 
 ![image](https://user-images.githubusercontent.com/104436260/224205277-df6ae0cb-55f0-4483-8943-75fcd4743d84.png)
+
+# RetinaNet 모델 학습을 수행 Process
+
+먼저, GPU를 사용하기 위하여 image tensor데이터와 targets의 box좌표, label값을 모두 GPU메모리로 이동시켜야 함.
+
+RetinaNet Model에 이미지와 타겟값을 input하면 output결과로 score가 나오게 됨.
+
+먼저 loss_dict를 print문을 통해 출력해보면
+
+결과는 batch당 classification loss score값과, bbox_regression score가 출력됨
+
+두개 모두 loss값 즉 실제 바운딩박스 값과 예측 바운딩박스 값의 차이라고 보면되는 데 두개의 loss값은 차이가 존재함
+
