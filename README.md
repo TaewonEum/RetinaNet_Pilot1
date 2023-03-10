@@ -122,5 +122,6 @@ RetinaNet Define
 
 현재 사업의 샘플 데이터의 Detection여부를 알아보기 위함이기 때문에 전이학습 진행, backbone 가중치는 사용함.
 
+# parameter Settings
 
-
+![image](https://user-images.githubusercontent.com/104436260/224203243-cd69a0fe-f76a-4bc0-a9c9-dd32e2f29f1b.png)
