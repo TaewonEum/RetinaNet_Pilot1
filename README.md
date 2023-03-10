@@ -53,6 +53,8 @@ img_width와 img_height를 통해 xmin, ymin, xmax, ymax값 구하여 바운딩�
 
 기존의 라벨링 파일의 값을 변환시켜 RetinaNet input에 맞게 데이터 변형
 
+아래는 xmin, ymin, xmax, ymax 값으로 변환 후 리스트에 저장해주는 코드임
+
 ![image](https://user-images.githubusercontent.com/104436260/224187941-fca5c2ea-d209-4055-a2a8-164aaa04f30c.png)
 
 4개의 좌표값을 한 리스트에 저장->이미지 별 객체 갯수만큼 각각 리스트화 해줌
