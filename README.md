@@ -81,7 +81,8 @@ Dataset 상속받아 __init__, __len__, __getitem__ 메소드를 사용하여 �
 
 transform 함수까지 작성->이미지 리사이즈, 이미지 텐서변환만 진행함 augmentation은 진행하지 않음
 
-![image](https://user-images.githubusercontent.com/104436260/224194596-dcffc510-df21-402e-8b59-211546a307b6.png)
+![image](https://user-images.githubusercontent.com/104436260/224196008-cd6a30a7-7ec6-42de-ab70-78978887f89f.png)
+
 
 Dataset은 각각의 이미지 텐서변환 데이터와 {[좌표값], [라벨값]}으로 이루어짐
 
