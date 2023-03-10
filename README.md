@@ -125,3 +125,7 @@ RetinaNet Define
 # parameter Settings
 
 ![image](https://user-images.githubusercontent.com/104436260/224203418-0dd20548-1d85-44ea-befa-05bdd300cf2b.png)
+
+# 학습결과 확인 epoch=1으로 설정
+
+![image](https://user-images.githubusercontent.com/104436260/224205277-df6ae0cb-55f0-4483-8943-75fcd4743d84.png)
