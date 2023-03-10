@@ -85,3 +85,6 @@ transform 함수까지 작성->이미지 리사이즈, 이미지 텐서변환만
 
 Dataset은 각각의 이미지 텐서변환 데이터와 {[좌표값], [라벨값]}으로 이루어짐
 
+![image](https://user-images.githubusercontent.com/104436260/224194834-d3f5a7e9-b879-4be9-a3ee-fda387294faf.png)
+
+Pytorch 공식 튜토리얼상의 설명내용과 같이 Input data 구성 완료
