@@ -73,7 +73,11 @@ img_width와 img_height를 통해 xmin, ymin, xmax, ymax값 구하여 바운딩�
 
 Pytorch 공식 사이트에서 나온 RetinaNet input 데이터 형태로 데이터를 변형함
 
+# 커스텀 데이터셋 만들기
 
+![image](https://user-images.githubusercontent.com/104436260/224193375-878d33ba-3a04-4f3f-b615-5c86b97bd8b0.png)
+
+transform 함수까지 작성
 
 
 
