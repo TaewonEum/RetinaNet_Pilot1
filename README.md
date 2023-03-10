@@ -118,9 +118,9 @@ collate_fn이란 Dataset을 batch단위로 묶을 때 사용함 이미지 마다
 
 RetinaNet Define
 
-![image](https://user-images.githubusercontent.com/104436260/224199967-e8fd74e9-ab03-4279-9b0c-41200580589b.png)
+![image](https://user-images.githubusercontent.com/104436260/224201037-41be063b-a717-48a5-975c-b665a21dcd3e.png)
 
-현재 사업의 샘플 데이터의 Detection여부를 알아보기 위함이기 때문에 전이학습을 위해 전체 코드를 구현하는 것이 아닌, torchvision model API를 활용
+현재 사업의 샘플 데이터의 Detection여부를 알아보기 위함이기 때문에 전이학습 진행, backbone 가중치는 사용함.
 
 
 
