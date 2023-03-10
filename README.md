@@ -142,3 +142,15 @@ RetinaNet Model에 이미지와 타겟값을 input하면 output결과로 score�
 
 두개 모두 loss값 즉 실제 바운딩박스 값과 예측 바운딩박스 값의 차이라고 보면되는 데 두개의 loss값은 차이가 존재함
 
+# Loss값
+
+먼저 Loss값이란 모델의 예측과 실제 값 사이의 차이를 나타내는 함수임.
+
+RetinaNet에서는 하나의 loss함수로 모든 예측값을 처리하는것이 아니라 두개의 loss함수를 사용하여 예측값을 처리함
+
+이는 RetinaNet이 클래스 불균형성 문제를 해결하기 위한 방법임
+
+먼저 classification loss는 객체 검출 모델에서는 각 bounding box에 대해 해당 객체가 있는지 없는지 예측하는 이진분류를 수행함. 즉 이 loss는 객체가 있는 위치에 대한 예측이 정확한지를 판단하는 데 사용됨.
+
+두번째는 regression loss로 bounding box의 위치와 크기를 예측하는 값임. 이 loss는 bounding box의 위치와 크기 예측이 정확한지를 판단하는데 사용됨
+
