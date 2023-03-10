@@ -108,7 +108,9 @@ DataLoader는 Dataset을 더욱 효율적으로 다루기 위한 유틸리티 �
 
 ![image](https://user-images.githubusercontent.com/104436260/224198276-7bf2b05b-b8e7-401a-9cc5-b562a4f9b027.png)
 
+collate_fn이란 Dataset을 batch단위로 묶을 때 사용함 이미지 마다 들어있는 객체의 수가 다르기 때문에 데이터는 일반적으로 다른 사이즈를 가지고 있음. 데이터를 배치로 묶을 때는 이를 동일한 크기로 맞춰주어야 함 이를 위해 collate_fn은 각각의 데이터를 처리하여 배치 단위로 묶을 수 있도록 해줌
 
+여기선 배치 단위로 각각의 이미지와 이미지의 타겟값을 Tuple형태로 묶어줌
 
 
 
