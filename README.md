@@ -116,4 +116,9 @@ collate_fn이란 Dataset을 batch단위로 묶을 때 사용함 이미지 마다
 
 ![image](https://user-images.githubusercontent.com/104436260/224199161-941ff38e-5e94-4778-ac15-e8a46c0f73ab.png)
 
+RetinaNet Define
+
+![image](https://user-images.githubusercontent.com/104436260/224199967-e8fd74e9-ab03-4279-9b0c-41200580589b.png)
+
+
 
