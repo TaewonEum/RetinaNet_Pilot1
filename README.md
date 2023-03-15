@@ -138,28 +138,26 @@ losses.backward()=델이 예측한 값과 정답 간의 차이(손실)를 계산
 
 optimizer.step()=계산된 기울기를 이용하여 모델의 매개변수를 업데이트함. 즉, 이전의 매개변수 값에 학습률(learning rate)을 곱한 후에, 기울기를 더해주는 방식으로 매개변수를 업데이트.
 
-# RetinaNet 모델 학습을 수행 Process
+# 모델 평가 진행
 
-먼저, GPU를 사용하기 위하여 image tensor데이터와 targets의 box좌표, label값을 모두 GPU메모리로 이동시켜야 함.
+![image](https://user-images.githubusercontent.com/104436260/225220422-ea69c83e-a831-41d8-8b44-bc32d4cfe49e.png)
 
-RetinaNet Model에 이미지와 타겟값을 input하면 output결과로 score가 나오게 됨.
+학습한 모델을 저장
 
-먼저 loss_dict를 print문을 통해 출력해보면
+![image](https://user-images.githubusercontent.com/104436260/225220510-bfb2f088-8602-453c-a231-c941699a543e.png)
 
-결과는 batch당 classification loss score값과, bbox_regression score가 출력됨
+모델 테스트 진행
 
-두개 모두 loss값 즉 실제 바운딩박스 값과 예측 바운딩박스 값의 차이라고 보면되는 데 두개의 loss값은 차이가 존재함
+![image](https://user-images.githubusercontent.com/104436260/225220601-d361584c-7de9-4286-bcc6-ed49f1e3e20c.png)
 
-# Loss값
+output 시각화 함수 작성
 
-먼저 Loss값이란 모델의 예측과 실제 값 사이의 차이를 나타내는 함수임.
+![image](https://user-images.githubusercontent.com/104436260/225220676-6a21acd4-41d0-4815-9dc3-e11410a67b7e.png)
 
-RetinaNet에서는 하나의 loss함수로 모든 예측값을 처리하는것이 아니라 두개의 loss함수를 사용하여 예측값을 처리함
+![image](https://user-images.githubusercontent.com/104436260/225220864-378d4f01-b0ae-4258-966c-268c90515ae3.png)
 
-이는 RetinaNet이 클래스 불균형성 문제를 해결하기 위한 방법임
+output 결과 시각화
 
-먼저 classification loss는 객체 검출 모델에서는 각 bounding box에 대해 해당 객체가 있는지 없는지 예측하는 이진분류를 수행함. 즉 이 loss는 객체가 있는 위치에 대한 예측이 정확한지를 판단하는 데 사용됨.
 
-두번째는 regression loss로 bounding box의 위치와 크기를 예측하는 값임. 이 loss는 bounding box의 위치와 크기 예측이 정확한지를 판단하는데 사용됨
 
-# RetinaNet의 Focal Loss
+
