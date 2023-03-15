@@ -122,19 +122,21 @@ collate_fn이란 Dataset을 batch단위로 묶을 때 사용함 이미지 마다
 
 ![image](https://user-images.githubusercontent.com/104436260/224199161-941ff38e-5e94-4778-ac15-e8a46c0f73ab.png)
 
-RetinaNet Define
+# RetinaNet Define
 
 ![image](https://user-images.githubusercontent.com/104436260/224201037-41be063b-a717-48a5-975c-b665a21dcd3e.png)
 
 현재 사업의 샘플 데이터의 Detection여부를 알아보기 위함이기 때문에 전이학습 진행, backbone 가중치는 사용함.
 
-# parameter Settings
+# 파라미터 설정 및 모델 학습 진행
 
-![image](https://user-images.githubusercontent.com/104436260/224203418-0dd20548-1d85-44ea-befa-05bdd300cf2b.png)
+![image](https://user-images.githubusercontent.com/104436260/225219057-76b38fd7-8769-4121-beda-56d6c7938eb5.png)
 
-# 학습결과 확인 epoch=1으로 설정(결과 확인용)
+optimizer.zero_grad= PyTorch에서 기울기(gradient)를 계산할 때, 기존의 기울기를 0으로 초기화합니다. 모델의 매개변수에 대한 기울기를 업데이트하기 전에, 기존의 기울기를 초기화
 
-![image](https://user-images.githubusercontent.com/104436260/224205277-df6ae0cb-55f0-4483-8943-75fcd4743d84.png)
+losses.backward()=델이 예측한 값과 정답 간의 차이(손실)를 계산한 후, 역전파(backward)를 통해 모델의 매개변수에 대한 기울기를 계산. 이 기울기는 loss.backward() 함수를 호출하는 시점에 각 매개변수에 대한 기울기가 계산
+
+optimizer.step()=계산된 기울기를 이용하여 모델의 매개변수를 업데이트함. 즉, 이전의 매개변수 값에 학습률(learning rate)을 곱한 후에, 기울기를 더해주는 방식으로 매개변수를 업데이트.
 
 # RetinaNet 모델 학습을 수행 Process
 
