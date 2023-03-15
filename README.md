@@ -1,4 +1,17 @@
-# RetinaNet
+# RetinaNet 정리
+
+RetinaNet은 Facebook AI Research에서 발표한 Object Detection 모델임.
+
+Focal loss라는 새로운 방식의 Loss 계산을 도입하여 class imbalance 문제를 해결하고 높은 정확도를 보이는 것이 특징.
+
+기존의 object detection 모델은 classification과 bounding box regression 두가지 문제를 동시에 해결하는 Two-stage 방식과 One-stage 방식으로 나뉘어짐
+
+이 두 가지 방식 모두 클래스 불균형 문제로 인해 높은 정확도를 갖지 못하는 문제가 있음
+
+RetinaNet은 이 문제를 Focal Loss를 도입하여 해결하려함.
+
+Focal loss는 클래스 불균형 문제를 해결하고 정확도를 향상시키기 위해 사용됨
+
 
 # 2023.03~05사이에 업로드 예정
 
@@ -161,5 +174,8 @@ output 결과 시각화
 ![image](https://user-images.githubusercontent.com/104436260/225220967-63ffad57-fa33-474d-87ca-47c5c7d4b287.png)
 
 데이터 셋도 적고 사진에서 차지하는 응애의 비율이 매우적기 때문에 학습이 거의 안된듯 함.
+
+
+
 
 
