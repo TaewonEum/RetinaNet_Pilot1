@@ -158,6 +158,8 @@ output 시각화 함수 작성
 
 output 결과 시각화
 
+![image](https://user-images.githubusercontent.com/104436260/225220967-63ffad57-fa33-474d-87ca-47c5c7d4b287.png)
 
+데이터 셋도 적고 사진에서 차지하는 응애의 비율이 매우적기 때문에 학습이 거의 안된듯 함.
 
 
