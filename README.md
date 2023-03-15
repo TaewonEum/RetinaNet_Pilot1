@@ -8,7 +8,9 @@
 
 # device 설정 및 Library import
 
-![image](https://user-images.githubusercontent.com/104436260/222882063-3e6b8be3-557d-4196-8c8d-5bffde780d85.png)
+![image](https://user-images.githubusercontent.com/104436260/225211900-c4023a04-1e10-4e01-bd85-4b8426924089.png)
+
+현재 코드에서는 dataset이 있는 경로를 os.chdir로 아예 고정시켜버림
 
 # GPU 가동 확인
 
